@@ -16,7 +16,7 @@ A lightweight Python script to query AWS EC2 instance metadata from the Instance
 
 ## Installation
 
-1. Clone or download the script (`get_aws_metadata.py`).
+1. Clone or download the script (`ec2-etadata.py`).
 2. Install the required dependency:
 
    ```bash
