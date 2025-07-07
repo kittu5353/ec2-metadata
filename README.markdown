@@ -30,25 +30,25 @@ Run the script from an AWS EC2 instance.
 ### Fetch All Metadata
 
 ```bash
-python get_aws_metadata.py
+python ec2-metadata.py
 ```
 
 ### Fetch a Specific Metadata Key
 
 ```bash
-python get_aws_metadata.py --key instance-id
+python ec2-metadata.py --key instance-id
 ```
 
 ### Pretty-Print JSON Output
 
 ```bash
-python get_aws_metadata.py --pretty
+python ec2-metadata.py --pretty
 ```
 
 ### Combine Options
 
 ```bash
-python get_aws_metadata.py --key instance-id --pretty
+python ec2-metadata.py --key instance-id --pretty
 ```
 
 ## Example Output
@@ -68,7 +68,7 @@ python get_aws_metadata.py --key instance-id --pretty
 ### Specific Key
 
 ```bash
-$ python get_aws_metadata.py --key instance-id
+$ python ec2-metadata.py --key instance-id
 "i-1234567890abcdef0"
 ```
 
